@@ -1,0 +1,138 @@
+body{
+    font-size: 26px;
+    background-color: rgba(206, 203, 203, 0.493);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: red;
+    text-shadow: 3px 3px 2px rgb(150, 8, 8);
+}
+h2{text-align: center;}
+li{text-align: left;}
+p{margin:0;}
+.header{
+    background-color: rgb(206, 247, 183);
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -32px;
+    text-align: center;
+}
+.main{
+    background-color: rgb(145, 227, 241);
+}
+.main div {margin: 0;}
+.advantages {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: -.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 27, 199);
+}
+.middle{
+       width:272px;
+       height:195px;
+       overflow: scroll;
+       display: inline-block;
+    }
+.aside{
+    width: 65px;
+    height:195px;
+    float: right;
+    border: 1px solid rgb(103, 101, 235)
+ }
+.section{
+     background-color: rgb(252, 250, 155);
+     margin: 0;
+     height:150px;
+     text-align: center;
+}
+.article p::first-letter{
+    color:rgb(4, 0, 223);
+    font-weight: bold;
+}
+.vertical{
+    position: relative;
+    top:40%;
+    left: 8%;
+    text-decoration: none;
+}
+.section a:hover{color: red;}
+.article{
+     background-color: rgb(247, 213, 141);
+     margin: 0;
+     height:50px;
+     text-indent: 30px;
+     font-size: 34px;
+     font-style: italic;
+     display:block;
+}
+.footer{
+    background-color: #fff;
+    height: 60px;
+    margin-top: -31px;
+    border-radius: 0 0 10px 10px;
+}
+img {
+    float:left;
+    margin-left: 2px;
+    border: 2px solid black;
+    height: 198px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+img:hover {opacity: 1.0;}
+#navbar{
+    list-style-type: none;
+    padding-left: 0;
+    margin: auto;
+}
+#navbar li{
+    display: inline-block;
+    position: relative;
+}
+#navbar a{
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar1 {
+    margin-top: -30px;
+    border:1px solid black;
+    height:30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 15px 5px;
+}
+#navbar li:hover {
+ background-color: rgb(211, 208, 208);
+ border-radius: 15px 5px;
+}
+#navbar ul{
+    display: none;
+    position:absolute;
+}
+#navbar ul li{
+    background-color: #fff;
+    border-radius: 15px 5px;
+    border: 1px dotted black;
+}
+#navbar li:hover ul{
+    display:block;
+}
+#alert{
+    border: 1px dotted black;
+    border-radius: 10px;
+    width: 100px;
+    height: 110px;
+    display: none;
+}
+#alert:target{display: block;}
+#main{
+    display:block;
+    float:right;
+    margin-top: 15px;
+}
+#main:target{display:none}
